@@ -1,0 +1,16 @@
+2016/06/28 17:56:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "usuarios".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuarios')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\AdmFarmacia\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/AdmFarmacia/index.php?r=usuarios
+---
+2016/06/28 18:09:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "usuaro".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('usuaro')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\AdmFarmacia\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/AdmFarmacia/index.php?r=usuaro
+---
