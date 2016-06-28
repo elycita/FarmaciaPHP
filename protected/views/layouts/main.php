@@ -27,11 +27,37 @@
 	</div><!-- header -->
 
 	<div id="mainmenu">
-		<?php $this->widget('zii.widgets.CMenu',array(
+		<?php $this->widget('application.extensions.mbmenu.MbMenu',array(
 			'items'=>array(
-				array('label'=>'Home', 'url'=>array('/site/index')),
-				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
-				array('label'=>'Contact', 'url'=>array('/site/contact')),
+				array('label'=>'Inicio', 'url'=>array('/site/index')),
+				array('label'=>'Compra', 'url'=>array('/site/index'),
+                                    'items'=>array (
+                                     array('label'=>'Proveedor', 'url'=>array('/proveedor/admin')),
+                                     array('label'=>'Compra', 'url'=>array('/compra/admin'),),
+                                     array('label'=>'Detallecompra', 'url'=>array('/detallecompra/admin'),),
+                                    )),
+                            
+                            
+				array('label'=>'Venta', 'url'=>array('/site/index'),
+                                    'items' => array (
+                                        array('label'=>'Cliente', 'url'=>array('/cliente/admin')),
+                                      array('label'=>'Venta', 'url'=>array('/venta/admin')),
+                                     array('label'=>'Detalleventa', 'url'=>array('/detalleventa/admin'),),
+                                     
+                                        
+                                    )
+                                    ),
+                            
+                             array('label'=>'Productos', 'url'=>array('/site/index'), 
+                              'items'=>array(
+                                     array('label'=>'Medicamento', 'url'=>array('/medicamento/admin')),
+                                     array('label'=>'Categoria', 'url'=>array('/categoria/admin'),),
+                                       
+                                                                               
+                                            
+                                  )
+                            ),
+                                array('label'=>'Contacto', 'url'=>array('/site/contact')),
 				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
 				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
 			),
@@ -48,9 +74,8 @@
 	<div class="clear"></div>
 
 	<div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
-		All Rights Reserved.<br/>
-		<?php echo Yii::powered(); ?>
+		Copyright &copy; <?php echo date('Y'); ?> FARCOS Software para Farmacias.<br/>
+		Todos los derechos reservados.<br/>
 	</div><!-- footer -->
 
 </div><!-- page -->

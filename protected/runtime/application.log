@@ -14,3 +14,90 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/AdmFarmacia/index.php?r=usuaro
 ---
+2016/06/28 20:48:25 [error] [exception.CException] exception 'CException' with message 'Property "MbMenu.links" is not defined.' in C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CWidgetFactory.php(161): CComponent->__set('links', Array)
+#1 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'application.ext...', Array)
+#2 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CBaseController.php(172): CBaseController->createWidget('application.ext...', Array)
+#3 C:\xampp\htdocs\AdmFarmacia\admFarmacia\protected\views\layouts\main.php(69): CBaseController->widget('application.ext...', Array)
+#4 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#8 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#9 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CBaseController.php(206): COutputProcessor->run()
+#10 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#11 C:\xampp\htdocs\AdmFarmacia\admFarmacia\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#12 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#14 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#15 C:\xampp\htdocs\AdmFarmacia\admFarmacia\protected\controllers\SiteController.php(32): CController->render('index')
+#16 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CWebApplication.php(282): CController->run('index')
+#21 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#22 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\AdmFarmacia\admFarmacia\index.php(14): CApplication->run()
+#24 {main}
+REQUEST_URI=/AdmFarmacia/admFarmacia/index.php?r=site/index
+---
+2016/06/28 20:48:27 [error] [exception.CException] exception 'CException' with message 'Property "MbMenu.links" is not defined.' in C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CWidgetFactory.php(161): CComponent->__set('links', Array)
+#1 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'application.ext...', Array)
+#2 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CBaseController.php(172): CBaseController->createWidget('application.ext...', Array)
+#3 C:\xampp\htdocs\AdmFarmacia\admFarmacia\protected\views\layouts\main.php(69): CBaseController->widget('application.ext...', Array)
+#4 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#8 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#9 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CBaseController.php(206): COutputProcessor->run()
+#10 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#11 C:\xampp\htdocs\AdmFarmacia\admFarmacia\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#12 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#14 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#15 C:\xampp\htdocs\AdmFarmacia\admFarmacia\protected\controllers\SiteController.php(32): CController->render('index')
+#16 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CWebApplication.php(282): CController->run('index')
+#21 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#22 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\AdmFarmacia\admFarmacia\index.php(14): CApplication->run()
+#24 {main}
+REQUEST_URI=/AdmFarmacia/admFarmacia/index.php?r=site/index
+---
+2016/06/28 20:48:34 [error] [exception.CException] exception 'CException' with message 'Property "MbMenu.links" is not defined.' in C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\base\CComponent.php:173
+Stack trace:
+#0 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CWidgetFactory.php(161): CComponent->__set('links', Array)
+#1 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CBaseController.php(146): CWidgetFactory->createWidget(Object(SiteController), 'application.ext...', Array)
+#2 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CBaseController.php(172): CBaseController->createWidget('application.ext...', Array)
+#3 C:\xampp\htdocs\AdmFarmacia\admFarmacia\protected\views\layouts\main.php(69): CBaseController->widget('application.ext...', Array)
+#4 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#6 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\widgets\CContentDecorator.php(76): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#7 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate('<div id="conten...')
+#8 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput('<div id="conten...')
+#9 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CBaseController.php(206): COutputProcessor->run()
+#10 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CBaseController.php(300): CBaseController->endWidget('CContentDecorat...')
+#11 C:\xampp\htdocs\AdmFarmacia\admFarmacia\protected\views\layouts\column1.php(6): CBaseController->endContent()
+#12 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CBaseController.php(126): require('C:\\xampp\\htdocs...')
+#13 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CBaseController.php(95): CBaseController->renderInternal('C:\\xampp\\htdocs...', Array, true)
+#14 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CController.php(784): CBaseController->renderFile('C:\\xampp\\htdocs...', Array, true)
+#15 C:\xampp\htdocs\AdmFarmacia\admFarmacia\protected\controllers\SiteController.php(32): CController->render('index')
+#16 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#19 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CWebApplication.php(282): CController->run('index')
+#21 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CWebApplication.php(141): CWebApplication->runController('site/index')
+#22 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 C:\xampp\htdocs\AdmFarmacia\admFarmacia\index.php(14): CApplication->run()
+#24 {main}
+REQUEST_URI=/AdmFarmacia/admFarmacia/index.php?r=site/index
+---
