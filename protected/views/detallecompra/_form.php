@@ -39,13 +39,17 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'compraID'); ?>
-		<?php echo $form->textField($model,'compraID'); ?>
+		<?php echo $form->dropDownList($model,'compraID',
+                        CHtml :: listData (Compra::model()->findAll(),'CompraID','CompraID')
+                        ); ?>
 		<?php echo $form->error($model,'compraID'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'medicamentoID'); ?>
-		<?php echo $form->textField($model,'medicamentoID'); ?>
+		<?php echo $form->dropDownList($model, 'medicamentoID' ,
+                        CHtml :: listData (Medicamento::model()->findAll(),'MedicamentoID','Nombre')
+                        ); ?>
 		<?php echo $form->error($model,'medicamentoID'); ?>
 	</div>
 

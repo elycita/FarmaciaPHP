@@ -39,13 +39,16 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'ventaID'); ?>
-		<?php echo $form->textField($model,'ventaID'); ?>
+		<?php echo $form->textField ($model,'ventaID');?>
+                 
 		<?php echo $form->error($model,'ventaID'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'medicamentoID'); ?>
-		<?php echo $form->textField($model,'medicamentoID'); ?>
+		<?php echo $form->dropDownList ($model,'medicamentoID',
+                         CHtml :: listData (Medicamento::model()->findAll(),'medicamentoID','Nombre')
+                        ); ?>
 		<?php echo $form->error($model,'medicamentoID'); ?>
 	</div>
 

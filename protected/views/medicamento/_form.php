@@ -87,7 +87,9 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'categoriaID'); ?>
-		<?php echo $form->textField($model,'categoriaID'); ?>
+		<?php echo $form->dropDownList($model,'categoriaID',
+                        CHtml :: listData (Categoria::model()->findAll(),'categoriaID','Nombre')
+                        ); ?>
 		<?php echo $form->error($model,'categoriaID'); ?>
 	</div>
 

@@ -42,7 +42,7 @@
                                     'items' => array (
                                         array('label'=>'Cliente', 'url'=>array('/cliente/admin')),
                                       array('label'=>'Venta', 'url'=>array('/venta/admin')),
-                                     array('label'=>'Detalleventa', 'url'=>array('/detalleventa/admin'),),
+                                     array('label'=>'Detalleventa', 'url'=>array('/detallepedido/admin'),),
                                      
                                         
                                     )

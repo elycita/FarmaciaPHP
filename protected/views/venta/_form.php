@@ -33,13 +33,17 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'clienteID'); ?>
-		<?php echo $form->textField($model,'clienteID'); ?>
+		<?php echo $form->dropDownList($model,'clienteID',
+                  CHtml :: listData (Cliente::model()->findAll(),'clienteID','Nombre')
+                        ); ?>
 		<?php echo $form->error($model,'clienteID'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'usuarioID'); ?>
-		<?php echo $form->textField($model,'usuarioID'); ?>
+		<?php echo $form->dropDownList($model,'usuarioID',
+                     CHtml :: listData (Usuario::model()->findAll(),'usuario','Nombre')  
+                        ); ?>
 		<?php echo $form->error($model,'usuarioID'); ?>
 	</div>
 

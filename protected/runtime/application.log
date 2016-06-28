@@ -101,3 +101,110 @@ Stack trace:
 #24 {main}
 REQUEST_URI=/AdmFarmacia/admFarmacia/index.php?r=site/index
 ---
+2016/06/28 22:28:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "detalleventa/admin".' in C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CWebApplication.php(141): CWebApplication->runController('detalleventa/ad...')
+#1 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\AdmFarmacia\admFarmacia\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/AdmFarmacia/admFarmacia/index.php?r=detalleventa/admin
+HTTP_REFERER=http://localhost:8080/AdmFarmacia/admFarmacia/index.php?r=venta/create
+---
+2016/06/28 22:30:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "detalleventa/admin".' in C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CWebApplication.php(141): CWebApplication->runController('detalleventa/ad...')
+#1 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\AdmFarmacia\admFarmacia\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/AdmFarmacia/admFarmacia/index.php?r=detalleventa/admin
+HTTP_REFERER=http://localhost:8080/AdmFarmacia/admFarmacia/index.php?r=site/index
+---
+2016/06/28 22:30:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "detalleventa/admin".' in C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CWebApplication.php(141): CWebApplication->runController('detalleventa/ad...')
+#1 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\AdmFarmacia\admFarmacia\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/AdmFarmacia/admFarmacia/index.php?r=detalleventa/admin
+HTTP_REFERER=http://localhost:8080/AdmFarmacia/admFarmacia/index.php?r=detalleventa/admin
+---
+2016/06/28 22:30:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "detalleventa/admin".' in C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CWebApplication.php(141): CWebApplication->runController('detalleventa/ad...')
+#1 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\AdmFarmacia\admFarmacia\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/AdmFarmacia/admFarmacia/index.php?r=detalleventa/admin
+HTTP_REFERER=http://localhost:8080/AdmFarmacia/admFarmacia/index.php?r=site/index
+---
+2016/06/28 22:30:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "detalleventa/admin".' in C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CWebApplication.php(141): CWebApplication->runController('detalleventa/ad...')
+#1 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\AdmFarmacia\admFarmacia\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/AdmFarmacia/admFarmacia/index.php?r=detalleventa/admin
+HTTP_REFERER=http://localhost:8080/AdmFarmacia/admFarmacia/index.php?r=detalleventa/admin
+---
+2016/06/28 22:32:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "detalleventa/admin".' in C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CWebApplication.php(141): CWebApplication->runController('detalleventa/ad...')
+#1 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\AdmFarmacia\admFarmacia\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/AdmFarmacia/admFarmacia/index.php?r=detalleventa/admin
+HTTP_REFERER=http://localhost:8080/AdmFarmacia/admFarmacia/index.php?r=detalleventa/admin
+---
+2016/06/28 22:32:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "detalleventa/admin".' in C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CWebApplication.php(141): CWebApplication->runController('detalleventa/ad...')
+#1 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\AdmFarmacia\admFarmacia\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/AdmFarmacia/admFarmacia/index.php?r=detalleventa/admin
+HTTP_REFERER=http://localhost:8080/AdmFarmacia/admFarmacia/index.php?r=site/index
+---
+2016/06/28 22:32:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "detalleventa/admin".' in C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CWebApplication.php(141): CWebApplication->runController('detalleventa/ad...')
+#1 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\AdmFarmacia\admFarmacia\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/AdmFarmacia/admFarmacia/index.php?r=detalleventa/admin
+HTTP_REFERER=http://localhost:8080/AdmFarmacia/admFarmacia/index.php?r=detalleventa/admin
+---
+2016/06/28 22:32:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "detalleventa/admin".' in C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CWebApplication.php(141): CWebApplication->runController('detalleventa/ad...')
+#1 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\AdmFarmacia\admFarmacia\index.php(14): CApplication->run()
+#3 {main}
+REQUEST_URI=/AdmFarmacia/admFarmacia/index.php?r=detalleventa/admin
+HTTP_REFERER=http://localhost:8080/AdmFarmacia/admFarmacia/index.php?r=site/index
+---
+2016/06/28 22:40:18 [error] [php] Use of undefined constant vendaID - assumed 'vendaID' (C:\xampp\htdocs\AdmFarmacia\admFarmacia\protected\views\detallepedido\_form.php:44)
+Stack trace:
+#0 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CController.php(869): DetallepedidoController->renderFile()
+#1 C:\xampp\htdocs\AdmFarmacia\admFarmacia\protected\views\detallepedido\create.php(18): DetallepedidoController->renderPartial()
+#2 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CBaseController.php(126): require()
+#3 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CBaseController.php(95): DetallepedidoController->renderInternal()
+#4 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CController.php(869): DetallepedidoController->renderFile()
+#5 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CController.php(782): DetallepedidoController->renderPartial()
+#6 C:\xampp\htdocs\AdmFarmacia\admFarmacia\protected\controllers\DetallepedidoController.php(79): DetallepedidoController->render()
+#7 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\actions\CInlineAction.php(49): DetallepedidoController->actionCreate()
+#8 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CController.php(308): CInlineAction->runWithParams()
+#9 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\filters\CFilterChain.php(133): DetallepedidoController->runAction()
+#10 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#11 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#12 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\filters\CInlineFilter.php(58): DetallepedidoController->filterAccessControl()
+#13 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#14 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CController.php(291): CFilterChain->run()
+#15 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CController.php(265): DetallepedidoController->runActionWithFilters()
+#16 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CWebApplication.php(282): DetallepedidoController->run()
+#17 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#18 C:\xampp\htdocs\AdmFarmacia\admFarmacia\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#19 C:\xampp\htdocs\AdmFarmacia\admFarmacia\index.php(14): CWebApplication->run()
+REQUEST_URI=/AdmFarmacia/admFarmacia/index.php?r=detallepedido/create
+in C:\xampp\htdocs\AdmFarmacia\admFarmacia\protected\views\detallepedido\_form.php (44)
+in C:\xampp\htdocs\AdmFarmacia\admFarmacia\protected\views\detallepedido\create.php (18)
+in C:\xampp\htdocs\AdmFarmacia\admFarmacia\protected\controllers\DetallepedidoController.php (79)
